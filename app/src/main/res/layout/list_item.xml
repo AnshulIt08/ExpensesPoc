@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/dp_20">
+
+    <CheckBox
+        android:id="@+id/expense_item_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft" />
+
+    <TextView
+        android:id="@+id/expense_name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/expense_value_tv"
+        android:layout_toRightOf="@+id/expense_item_cb"
+        android:gravity="start"
+        android:text="sdadad"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/expense_value_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingRight="?android:attr/expandableListPreferredChildPaddingLeft"
+        android:textSize="17sp"
+        android:text="sdadad"
+        />
+
+    <TextView
+        android:id="@+id/expense_date_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="?android:attr/expandableListPreferredChildPaddingLeft"
+        android:textSize="14sp"
+        android:layout_marginTop="@dimen/dp_5"
+        android:layout_below="@+id/expense_name_tv"
+        android:text=""
+        />
+</RelativeLayout>

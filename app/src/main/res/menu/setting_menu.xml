@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/doneMenu"
+        android:title="@string/done"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/menu_add"
+        android:title="@string/add"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_update"
+        android:title="@string/update"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_delete"
+        android:title="@string/delete"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_calculate_expense"
+        android:title="@string/calculate_expense"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_check_stats"
+        android:title="@string/check_stats"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_action_about"
+        android:title="@string/about"
+        app:showAsAction="never" />
+
+
+</menu>

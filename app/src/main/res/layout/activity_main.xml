@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/dp_10"
+        android:layout_marginEnd="@dimen/dp_10"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/dp_20"
+            android:text="@string/hello_title" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/activity_main_month_spinner"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangleshape"/>
+
+        <EditText
+            android:id="@+id/activity_main_year_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="4"
+            android:hint="@string/year"
+            android:layout_marginTop="@dimen/dp_10"
+            android:inputType="number"
+            android:singleLine="true"
+            android:padding="@dimen/dp_10"
+            />
+        <EditText
+            android:id="@+id/activity_main_income_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/income"
+            android:layout_marginTop="@dimen/dp_10"
+            android:singleLine="true"
+            android:inputType="number"
+            android:padding="@dimen/dp_10"
+            />
+       <Button
+            android:id="@+id/activity_main_done_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/done"
+            android:layout_marginTop="@dimen/dp_10"
+            android:onClick="doneClick"
+            />
+    </LinearLayout>
+</layout>

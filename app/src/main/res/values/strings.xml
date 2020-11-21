@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Expenses App</string>
+    <string name="hello_title">Hello ! \n Please add details</string>
+    <string name="year">Year</string>
+    <string name="income">Income</string>
+    <string name="done">DONE</string>
+    <string name="empty_year">Please enter year.</string>
+    <string name="not_valid_year">Please enter valid year.</string>
+    <string name="empty_income">Please enter valid income amount.</string>
+    <string name="enter_expense">Please Enter Expense</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="update">Update</string>
+    <string name="calculate_expense">Calculate Expense</string>
+    <string name="check_stats">"Check Stats "</string>
+    <string name="about">About</string>
+    <string name="enter_expense_name">Please Enter Expense</string>
+    <string name="enter_expense_value">Please Enter Expense Amount</string>
+    <string name="enter_expense_month">Please Enter Expense Month</string>
+    <string name="enter_expense_year">Please Enter Expense Year</string>
+    <string name="enter_expense_total_income">Please Enter Total Income</string>
+    <string name="enter_expense_type">Please Enter Expense Type</string>
+    <string name="regular">Regular</string>
+    <string name="non_regular">Non Regular</string>
+    <string name="enter_value">Please Enter Expense Details</string>
+    <string name="delete">Delete</string>
+    <string name="add">Add</string>
+    <string-array name="month">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="expenseType">
+        <item>@string/regular</item>
+        <item>@string/non_regular</item>
+    </string-array>
+</resources>
